@@ -1,0 +1,7 @@
+Executable : D:\soft_install\android_sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\workspace\workspace\testWorkspace\JVMTI_Sample-maste2\jvmtilib\.cxx\Debug\3s1o3l5b\arm64-v8a
+jvmti_agent
+jvmArgs : 
+

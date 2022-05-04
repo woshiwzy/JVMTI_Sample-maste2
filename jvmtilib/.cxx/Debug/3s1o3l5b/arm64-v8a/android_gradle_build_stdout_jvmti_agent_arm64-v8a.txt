@@ -1,0 +1,110 @@
+ninja: Entering directory `D:\workspace\workspace\testWorkspace\JVMTI_Sample-maste2\jvmtilib\.cxx\Debug\3s1o3l5b\arm64-v8a'
+[1/2] Building CXX object CMakeFiles/jvmti_agent.dir/src/main/cpp/native-lib.cpp.o
+In file included from ../../../../src/main/cpp/native-lib.cpp:17:
+../../../../src/main/cpp/leak_find/demo.h:45:68: warning: format specifies type 'int' but the argument has type 'jlong' (aka 'long') [-Wformat]
+    ALOGE("==触发 Object Free Listener===被回收对象tag:%d", tag);
+                                                       ~~   ^~~
+                                                       %ld
+../../../../src/main/cpp/leak_find/common.h:21:68: note: expanded from macro 'ALOGE'
+#define ALOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+                                                                   ^~~~~~~~~~~
+In file included from ../../../../src/main/cpp/native-lib.cpp:17:
+../../../../src/main/cpp/leak_find/demo.h:79:44: warning: format specifies type 'unsigned int' but the argument has type 'jlong' (aka 'long') [-Wformat]
+    ALOGI("==========触发 GCStart===%u", time);
+                                    ~~   ^~~~
+                                    %ld
+../../../../src/main/cpp/leak_find/common.h:19:67: note: expanded from macro 'ALOGI'
+#define ALOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+In file included from ../../../../src/main/cpp/native-lib.cpp:17:
+../../../../src/main/cpp/leak_find/demo.h:86:45: warning: format specifies type 'unsigned int' but the argument has type 'jlong' (aka 'long') [-Wformat]
+    ALOGI("==========触发 GCFinish===%u", time);
+                                     ~~   ^~~~
+                                     %ld
+../../../../src/main/cpp/leak_find/common.h:19:67: note: expanded from macro 'ALOGI'
+#define ALOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+In file included from ../../../../src/main/cpp/native-lib.cpp:17:
+../../../../src/main/cpp/leak_find/demo.h:309:53: warning: format specifies type 'int' but the argument has type 'jlocation' (aka 'long') [-Wformat]
+    ALOGI("===break_point_listener 触发了===%d", location);
+                                            ~~   ^~~~~~~~
+                                            %ld
+../../../../src/main/cpp/leak_find/common.h:19:67: note: expanded from macro 'ALOGI'
+#define ALOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+In file included from ../../../../src/main/cpp/native-lib.cpp:17:
+../../../../src/main/cpp/leak_find/demo.h:341:64: warning: format specifies type 'int' but the argument has type 'jlocation' (aka 'long') [-Wformat]
+    ALOGI("==My_Expcetion_Catch====%s-location:%d", className, location);
+                                               ~~              ^~~~~~~~
+                                               %ld
+../../../../src/main/cpp/leak_find/common.h:19:67: note: expanded from macro 'ALOGI'
+#define ALOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+In file included from ../../../../src/main/cpp/native-lib.cpp:20:
+../../../../src/main/cpp/leak_find/obj_find.h:23:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct Clazz {
+^~~~~~~
+../../../../src/main/cpp/leak_find/obj_find.h:36:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct Field {
+^~~~~~~
+../../../../src/main/cpp/leak_find/obj_find.h:41:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct ClassList {
+^~~~~~~
+../../../../src/main/cpp/leak_find/obj_find.h:46:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct FieldList {
+^~~~~~~
+../../../../src/main/cpp/leak_find/obj_find.h:50:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct Tag {
+^~~~~~~
+../../../../src/main/cpp/leak_find/obj_find.h:56:1: warning: typedef requires a name [-Wmissing-declarations]
+typedef struct PointedToList {
+^~~~~~~
+../../../../src/main/cpp/native-lib.cpp:68:32: warning: comparison between NULL and non-pointer ('jlong' (aka 'long') and NULL) [-Wnull-arithmetic]
+        if (referrer_class_tag == NULL) {
+            ~~~~~~~~~~~~~~~~~~ ^  ~~~~
+../../../../src/main/cpp/native-lib.cpp:72:47: warning: format specifies type 'int' but the argument has type 'jlong' (aka 'long') [-Wformat]
+            ALOGI("====referrer_tag_ptr: %d", referrer_class_tag);
+                                         ~~   ^~~~~~~~~~~~~~~~~~
+                                         %ld
+../../../../src/main/cpp/leak_find/common.h:19:67: note: expanded from macro 'ALOGI'
+#define ALOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+../../../../src/main/cpp/native-lib.cpp:78:32: warning: comparison between NULL and non-pointer ('jlong' (aka 'long') and NULL) [-Wnull-arithmetic]
+        if (referrer_class_tag == NULL) {
+            ~~~~~~~~~~~~~~~~~~ ^  ~~~~
+../../../../src/main/cpp/native-lib.cpp:81:47: warning: format specifies type 'int' but the argument has type 'jlong' (aka 'long') [-Wformat]
+            ALOGI("====referrer_tag_ptr: %d", referrer_class_tag);
+                                         ~~   ^~~~~~~~~~~~~~~~~~
+                                         %ld
+../../../../src/main/cpp/leak_find/common.h:19:67: note: expanded from macro 'ALOGI'
+#define ALOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+../../../../src/main/cpp/native-lib.cpp:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../../../../src/main/cpp/native-lib.cpp:335:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../../../../src/main/cpp/native-lib.cpp:458:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../../../../src/main/cpp/native-lib.cpp:474:12: warning: array index 3 is past the end of the array (which contains 1 element) [-Warray-bounds]
+    int mm=ars[3];
+           ^   ~
+../../../../src/main/cpp/native-lib.cpp:473:5: note: array 'ars' declared here
+    int ars[]={2};
+    ^
+../../../../src/main/cpp/native-lib.cpp:490:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../../../../src/main/cpp/native-lib.cpp:114:1: warning: unused function 'addLabel' [-Wunused-function]
+addLabel(CodeIr &c,
+^
+../../../../src/main/cpp/native-lib.cpp:161:20: warning: unused function 'ClassNameToDescriptor' [-Wunused-function]
+static std::string ClassNameToDescriptor(const char *class_name) {
+                   ^
+../../../../src/main/cpp/native-lib.cpp:172:15: warning: unused function 'getNumParams' [-Wunused-function]
+static size_t getNumParams(ir::EncodedMethod *method) {
+              ^
+23 warnings generated.
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cxx\Debug\3s1o3l5b\obj\arm64-v8a\libjvmti_agent.so

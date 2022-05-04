@@ -1,0 +1,25 @@
+# ninja log v5
+31	1660	673012559	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_bytecode.cc.o	5d633cb690827a01
+12	1755	673012560	CMakeFiles/dexter.dir/src/main/cpp/dexer/common.cc.o	d60c97ac59f54c23
+1755	2586	673012560	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_utf8.cc.o	8427643a26a284eb
+21	2668	673012560	CMakeFiles/dexter.dir/src/main/cpp/dexer/control_flow_graph.cc.o	5005f45cd04787f7
+0	2678	673012561	CMakeFiles/dexter.dir/src/main/cpp/dexer/bytecode_encoder.cc.o	14350ab9abf21f56
+24	3025	673012561	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_format.cc.o	85e2bbcebde17afd
+60	3180	673012561	CMakeFiles/dexter.dir/src/main/cpp/dexer/tryblocks_encoder.cc.o	71f10ac6ce440ff1
+54	3482	673012561	CMakeFiles/dexter.dir/src/main/cpp/dexer/debuginfo_encoder.cc.o	5e5cd76de7f9a91d
+2678	4225	673012562	CMakeFiles/jvmti_agent.dir/src/main/cpp/agent.cpp.o	79bc2f4e6b61cbef
+63	4265	673012562	CMakeFiles/dexter.dir/src/main/cpp/dexer/instrumentation.cc.o	46c9d35570cb9ad
+3180	4641	673012562	CMakeFiles/jvmti_agent.dir/src/main/cpp/log.cpp.o	a923a6b3308b568c
+18	4796	673012563	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_ir.cc.o	5ddb16d94117c581
+4225	5329	673012563	CMakeFiles/jvmti_agent.dir/src/main/cpp/size_by_classes.cpp.o	73c25f200c39ccc0
+15	5667	673012563	CMakeFiles/dexter.dir/src/main/cpp/dexer/code_ir.cc.o	28cccc484f71131a
+3026	5686	673012564	CMakeFiles/jvmti_agent.dir/src/main/cpp/gc_roots.cpp.o	c3648ad4426f7e47
+4265	6136	673012564	CMakeFiles/jvmti_agent.dir/src/main/cpp/objects_size.cpp.o	3e0a44b8cb585608
+2586	6316	673012564	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_ir_builder.cc.o	e042bb1122f5b7d9
+2668	6327	673012564	CMakeFiles/dexter.dir/src/main/cpp/dexer/writer.cc.o	18f3e7568000dcec
+4642	6363	673012564	CMakeFiles/jvmti_agent.dir/src/main/cpp/utils.cpp.o	871a033a70444dc
+3482	6852	673012565	CMakeFiles/jvmti_agent.dir/src/main/cpp/native-lib.cpp.o	4885259425f283a3
+1662	7171	673012565	CMakeFiles/dexter.dir/src/main/cpp/dexer/reader.cc.o	5c500dd6cb786064
+7172	7843	673012566	libdexter.a	40be135c41cdad5d
+7843	8259	673012566	../../../../build/intermediates/cxx/Debug/3s1o3l5b/obj/armeabi-v7a/libjvmti_agent.so	7a407360e88e62ef
+1	17	0	clean	ed9b45b5f32ea940

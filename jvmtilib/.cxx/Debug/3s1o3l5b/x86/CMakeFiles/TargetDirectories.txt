@@ -1,0 +1,4 @@
+D:/workspace/workspace/testWorkspace/JVMTI_Sample-maste2/jvmtilib/.cxx/Debug/3s1o3l5b/x86/CMakeFiles/dexter.dir
+D:/workspace/workspace/testWorkspace/JVMTI_Sample-maste2/jvmtilib/.cxx/Debug/3s1o3l5b/x86/CMakeFiles/rebuild_cache.dir
+D:/workspace/workspace/testWorkspace/JVMTI_Sample-maste2/jvmtilib/.cxx/Debug/3s1o3l5b/x86/CMakeFiles/jvmti_agent.dir
+D:/workspace/workspace/testWorkspace/JVMTI_Sample-maste2/jvmtilib/.cxx/Debug/3s1o3l5b/x86/CMakeFiles/edit_cache.dir

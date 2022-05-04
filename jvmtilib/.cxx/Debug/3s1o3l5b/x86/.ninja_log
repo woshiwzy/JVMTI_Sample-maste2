@@ -1,0 +1,25 @@
+# ninja log v5
+14	730	673012567	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_bytecode.cc.o	fbc3a17b5b3ac412
+4	765	673012567	CMakeFiles/dexter.dir/src/main/cpp/dexer/common.cc.o	1d642b11bd26c00e
+20	1272	673012567	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_format.cc.o	266cb7fdbc1c1a02
+18	2193	673012568	CMakeFiles/dexter.dir/src/main/cpp/dexer/control_flow_graph.cc.o	552a7cd94de2a4ce
+9	2343	673012568	CMakeFiles/dexter.dir/src/main/cpp/dexer/debuginfo_encoder.cc.o	96adf5e6fcec1919
+731	2777	673012569	CMakeFiles/dexter.dir/src/main/cpp/dexer/tryblocks_encoder.cc.o	7cbcdc51d9686770
+1273	2785	673012569	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_utf8.cc.o	936c1846a58ba91d
+1	2856	673012569	CMakeFiles/dexter.dir/src/main/cpp/dexer/bytecode_encoder.cc.o	9e2f453f01b9e50e
+11	3535	673012570	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_ir.cc.o	ed54827ee510854c
+23	3616	673012570	CMakeFiles/dexter.dir/src/main/cpp/dexer/dex_ir_builder.cc.o	5ada7ace93a3034d
+2193	3801	673012570	CMakeFiles/jvmti_agent.dir/src/main/cpp/agent.cpp.o	a6db4ba56a8a488
+2856	3906	673012570	CMakeFiles/jvmti_agent.dir/src/main/cpp/log.cpp.o	22dc2201d36335ed
+765	4173	673012570	CMakeFiles/dexter.dir/src/main/cpp/dexer/instrumentation.cc.o	e711f28606d5a1e2
+6	4386	673012571	CMakeFiles/dexter.dir/src/main/cpp/dexer/code_ir.cc.o	d6d44933e793f6d4
+3616	4757	673012571	CMakeFiles/jvmti_agent.dir/src/main/cpp/size_by_classes.cpp.o	d10ac9fa0acc1d4a
+2343	4794	673012571	CMakeFiles/jvmti_agent.dir/src/main/cpp/gc_roots.cpp.o	652e5f30679f21c
+3535	5098	673012571	CMakeFiles/jvmti_agent.dir/src/main/cpp/objects_size.cpp.o	31df84e10d4aee49
+3802	5333	673012572	CMakeFiles/jvmti_agent.dir/src/main/cpp/utils.cpp.o	575c761557a6312
+27	5628	673012572	CMakeFiles/dexter.dir/src/main/cpp/dexer/reader.cc.o	d2c77d883ffe3fcb
+2777	5673	673012572	CMakeFiles/dexter.dir/src/main/cpp/dexer/writer.cc.o	a6ccaaebfb15374a
+2785	5973	673012572	CMakeFiles/jvmti_agent.dir/src/main/cpp/native-lib.cpp.o	867b97afe7d2ea15
+5673	6148	673012572	libdexter.a	e571e65c83b389a4
+6148	6475	673012573	../../../../build/intermediates/cxx/Debug/3s1o3l5b/obj/x86/libjvmti_agent.so	425114ef6ec2653d
+0	13	0	clean	ed9b45b5f32ea940

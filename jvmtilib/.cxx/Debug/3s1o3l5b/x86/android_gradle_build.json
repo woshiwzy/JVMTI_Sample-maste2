@@ -1,0 +1,53 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\workspace\\workspace\\testWorkspace\\JVMTI_Sample-maste2\\jvmtilib\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\soft_install\\android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\workspace\\workspace\\testWorkspace\\JVMTI_Sample-maste2\\jvmtilib\\.cxx\\Debug\\3s1o3l5b\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\soft_install\\android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\workspace\\workspace\\testWorkspace\\JVMTI_Sample-maste2\\jvmtilib\\.cxx\\Debug\\3s1o3l5b\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "jvmti_agent-Debug-x86": {
+      "buildCommandComponents": [
+        "D:\\soft_install\\android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\workspace\\workspace\\testWorkspace\\JVMTI_Sample-maste2\\jvmtilib\\.cxx\\Debug\\3s1o3l5b\\x86",
+        "jvmti_agent"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "jvmti_agent",
+      "output": "D:\\workspace\\workspace\\testWorkspace\\JVMTI_Sample-maste2\\jvmtilib\\build\\intermediates\\cxx\\Debug\\3s1o3l5b\\obj\\x86\\libjvmti_agent.so",
+      "runtimeFiles": []
+    },
+    "dexter-Debug-x86": {
+      "buildCommandComponents": [
+        "D:\\soft_install\\android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\workspace\\workspace\\testWorkspace\\JVMTI_Sample-maste2\\jvmtilib\\.cxx\\Debug\\3s1o3l5b\\x86",
+        "dexter"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "dexter",
+      "output": "D:\\workspace\\workspace\\testWorkspace\\JVMTI_Sample-maste2\\jvmtilib\\.cxx\\Debug\\3s1o3l5b\\x86\\libdexter.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}
